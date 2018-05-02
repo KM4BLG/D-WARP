@@ -10,7 +10,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/common.css" />
         <meta charset="UTF-8">
         <script src="scripts/navigation.js"></script>
-        <title></title>
+        <title>D-WARP</title>
     </head>
     <body>
         <table id="blocks">

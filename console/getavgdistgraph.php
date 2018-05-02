@@ -1,8 +1,10 @@
 <?php
+    // Establish type as JavaScript file. Allows PHP generated JavaScript
     header("Content-type: text/javascript");  
     include("config/dbconnect.php");
     include("lib/gridtools.php");
     
+    // Misc. Setup stuff
     $conn = new mysqli($mysql_host, $mysql_user, $mysql_pass, $mysql_scma);
     if($conn->connect_error) {
         die("ERROR: Could not generate graph!");
@@ -12,6 +14,7 @@
     $bands = array("2200m", "630m", "160m", "80m", "40m", "30m", "20m", "17m", "15m", "12m", "10m");
     $colors = array("maroon", "red", "orange", "yellow", "green", "purple", "fuchsia", "lime", "aqua", "blue", "black");
 
+    // For Each Band, Build A Data Array and Add It To That Band's Block
     for($i = 0; $i < count($bands); $i++) {
         echo "var " . $varnames[$i] . " = {\n" . 
                 generateJSArrays($conn, intval($_GET["days"]), $bands[$i]) .
@@ -19,6 +22,7 @@
                 "',\n\tmarker: {\n\t\tcolor: '" . $colors[$i] . "',\n\t\topacity: 0.7,\n\t}\n};\n\n";
     }
     
+    // Function to generate JavaScript arrays for datapoints (from MySQL)
     function generateJSArrays($conn, $numDays, $table) {
         $gridfile = fopen("mygrid", "r") or die("issue");
         $mygrid = fread($gridfile, filesize("mygrid"));

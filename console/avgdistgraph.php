@@ -9,7 +9,7 @@ $numdays = $_GET["days"];
 </head>
 
 <body>
-  <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <div id="myDiv"></div>
   <script>
       var data = [twentytwohundred, sixthirty, onesixty, eighty, forty, thirty, twenty, seventeen, fifteen, twelve, ten];
       var layout = {

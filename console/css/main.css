@@ -8,6 +8,11 @@ and open the template in the editor.
     Author     : zach
 */
 
+html, body {
+    height: 98%;
+    width: 99%;
+}
+
 iframe {
     border: 0;
 }
@@ -30,12 +35,13 @@ h2 {
 
 td {
     word-wrap: break-word;
+    vertical-align: top;
 }
 
 #navArea {
     width: 25%;
     height: 100%;
-    background-color: paleturquoise;
+    background-color: aquamarine;
 }
 
 #contentArea {

@@ -5,7 +5,6 @@
         <group>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/showall.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/scripts/formValidation.js</file>
-            <file>file:/home/zach/NetBeansProjects/D-WARP_Console/setgrid.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/mygrid</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/csvexport.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/getavgdistgraph.php</file>
@@ -15,13 +14,16 @@
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/totalsgraph.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/avgdistgraph.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/gettotalsgraph.php</file>
+            <file>file:/home/zach/NetBeansProjects/D-WARP_Console/css/tabledisplay.css</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/searchcall.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/graphbuilder.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/scripts/graphing.js</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/scripts/csvparse.js</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/lib/gridtools.php</file>
+            <file>file:/home/zach/NetBeansProjects/D-WARP_Console/css/common.css</file>
+            <file>file:/home/zach/NetBeansProjects/D-WARP_Console/about.php</file>
+            <file>file:/home/zach/NetBeansProjects/D-WARP_Console/css/about.css</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/getcsv.php</file>
-            <file>file:/home/zach/NetBeansProjects/D-WARP_Console/searchtable.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/getstationtable.php</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/scripts/ajax.js</file>
             <file>file:/home/zach/NetBeansProjects/D-WARP_Console/index.php</file>
